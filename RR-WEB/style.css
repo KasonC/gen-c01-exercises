@@ -1,0 +1,535 @@
+header {
+    background-color: rgba(216, 203, 203, 0.842);
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+  }
+  .container{
+    height: 64px;
+  }
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 24px;
+  }
+  .lion{
+    height: 3rem;
+  }
+  
+  .Colmar {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    height: 32px;
+    color: darkslategray;
+  }
+  
+  .Academy {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: lighter;
+    height: 32px;
+  }
+  .colmaracademy{
+    height: 2rem;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  
+  
+  nav {
+    height: auto;
+    margin-right: 24px;
+  }
+  .campus{
+    margin-right: 16px;
+  }
+  .online{
+    margin-right: 16px;
+  }
+  .companies{
+    margin-right: 16px;
+  }
+  .sign{
+    margin-right: 16px;
+  }
+  nav span {
+    font-family: sans-serif;
+    color: darkslategray;
+    font-weight: lighter;
+    line-height: 32px;
+  }
+  
+  .content {
+    background-color: lightgrey;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    font-size: 1.2rem;
+    margin-left: 24px;
+  }
+  
+  .banner {
+    width: 60%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 24px;
+    margin-right: 32px;
+  }
+  
+  .learn {
+    text-transform: none;
+    font-family: sans-serif;
+    color: darkslategray;
+    text-align: left;
+    align-self: center;
+  }
+  
+  h3 {
+    text-transform: none;
+    font-family: sans-serif;
+    color: darkslategray;
+    text-align: left;
+    align-self: center;
+  
+  }
+  
+  .start {
+    color: white;
+    font-family: sans-serif;
+    background-color: darkslategray;
+    z-index: 1;
+    background-size: auto;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    align-self: center;
+  }
+  
+  .content2 {
+    background-color: white;
+    background-size: cover;
+    display: flex;
+  }
+  
+  .left-section {
+    width: 60%;
+    padding: 32px 24px;
+  }
+  
+  .left-section img {
+    width: 100%;
+  }
+  
+  .left-section h2 {
+    padding-top: 32px;
+  }
+  
+  h2 {
+    font-size: 1.9rem;
+    color: darkslategray;
+    font-weight: 700;
+    font-family: sans-serif;
+  }
+  
+  .left-section p {
+    padding: 0 24px 24px 0px;
+  }
+  
+  p {
+    color: gray;
+    word-break: break-all;
+    white-space: normal;
+  }
+  
+  
+  .right-section {
+    border-left: 1px solid #DCDCDC;
+    padding: 16px 0px 32px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  
+  .box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  
+  .box img.box1 {
+    width: 35%;
+    padding: 16px;
+  }
+  
+  .first-content {
+    padding: 16px 1px 16px 0px;
+    width: 100%;
+  }
+  
+  h6 {
+  
+    font-size: 1.10rem;
+    color: darkslategray;
+    font-weight: bold;
+    font-family: sans-serif;
+  
+  }
+  
+  .content p {
+    padding-top: 8px;
+  }
+  
+  p {
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 1.1rem;
+    color: gray;
+    font-family: sans-serif;
+  }
+  
+  .content a {
+    color: #4ba3f4;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    padding-top: .9rem;
+  }
+  
+  .box img.box2 {
+    width: 35%;
+    padding: 16px;
+  
+  }
+  
+  .second-content {
+    padding: 16px 1px 16px 0px;
+    width: 100%;
+  }
+  
+  .third-content {
+    padding: 16px 1px 16px 0px;
+    width: 100%;
+  }
+  
+  .box img.box3 {
+    width: 35%;
+    padding: 16px;
+  }
+  
+  .third {
+    background-color: lightgrey;
+  }
+  
+  .learning {
+    background-color: lightgrey;
+    padding: 32px 72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+  }
+  
+  .head {
+    background-color: lightgrey;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .courseleft {
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 20rem;
+    margin-left: 72px;
+  }
+  .courseright{
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 20rem;
+    margin-right: 72px;
+  }
+  .coursemid{
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 20rem;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+  span{
+    font-family: sans-serif;
+    color: grey;
+  }
+  
+  
+  .courses-img {
+    width: 20rem;
+  }
+  
+  .course-content {
+    background-color: white;
+    padding: 24px 24px 16px 24px;
+    margin-bottom: 32px;
+  }
+  .thesis{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    background-size: cover;
+  }
+  .exhibit{
+    width: 100%;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .thesis video{
+    width: 100%;
+    margin-left: 24px;
+    margin-right: 24px;
+  
+  }
+  .video{
+    width: 60%;
+    padding-right:  16px;
+  }
+  .video h2{
+    text-align: left;
+  }
+  .thesis .right{
+    border-left: 1px solid #DCDCDC;
+    padding: 16px 0px 32px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    background-color: lightgrey;
+  }
+  .thesis .right2{
+    border-left: 1px solid #DCDCDC;
+    padding: 16px 0px 32px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .rightsect{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-left: 24px;
+  }
+  .right img{
+    width: 35%;
+    padding: 16px;
+  
+  }
+  .right .right-info{
+    padding-left: 16px;
+  }
+  .right2 img{
+    width: 35%;
+  
+    padding: 16px;
+  }
+  footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .75rem;
+  }
+  .mobiles{
+    display: none;
+  }
+  
+  .mobileone{
+    display: none;
+  }
+  .mobileboxes{
+    display: none;
+  }
+  
+  .mobilehead{
+    display: none;
+  }
+  
+  
+  @media only screen and (max-width: 480px){
+    .mobiles{
+      display: flex;
+      justify-content: space-between;
+      width: auto;
+      height: 64px;
+      }
+    header{
+      display: none;
+    }
+    .mobileone{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      background-color: lightgrey;
+      background-size: cover;
+      align-items: center;
+      text-align: center;
+    }
+    .mobilebanner{
+      width: 480px;
+    }
+    .content{
+      display: none;
+    }
+    .learn{
+      padding-top: 32px;
+      padding-bottom: 32px;
+    }
+    .Lorem{
+      padding-bottom: 24px;
+    }
+    .start{
+      font-weight: bold;
+      margin-bottom: 32px;
+    }
+    .left-section{
+      display: none;
+    }
+    .right-section{
+      display: none;
+    }
+    .mobilestart1{
+      background-size: cover;
+    }
+    .mobileboxes{
+      display: flex;
+      flex-direction: column;
+  
+    }
+    .mobileimage1{
+      margin-left: 16px;
+      margin-top: 16px;
+      margin-right: 16px;
+      align-items: center;
+    }
+    .mobilecontent1{
+      text-align: left;
+      padding-left: 32px;
+    }
+    .mobileimage2{
+    margin-top: 64px;
+    margin-bottom: auto;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+    .mobilecontent2{
+      text-align: left;
+      padding-left: 32px;
+    }
+  .mobileimage3{
+    margin-top: 64px;
+    margin-bottom: auto;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .mobilecontent3{
+    text-align: left;
+    padding-left: 32px;
+  }
+  .learning{
+    display: none;
+  }
+  .head{
+    display: none;
+  }
+  
+  .mobilehead{
+    display: flex;
+    flex-direction: column;
+  }
+  .software{
+    background-color: lightgrey;
+    text-decoration-color: black;
+    margin: 16px;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 24px;
+  }
+  .art{
+    background-color: lightgrey;
+    margin: 16px;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 24px;
+  }
+  .design{
+    background-color: lightgrey;
+    margin: 16px;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 24px;
+  }
+  .data{
+    background-color: lightgrey;
+    margin: 16px;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 24px;
+  }
+  .business{
+    background-color: lightgrey;
+    margin: 16px;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 24px;
+  }
+  .marketing{
+    background-color: lightgrey;
+    margin: 16px;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 24px;
+  }
+  .exhibit{
+    display: none;
+  }
+  .mobileexhibit{
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    padding-bottom: 16px;
+  }
+  .mobilevid{
+  width: 480px;
+  margin-bottom: 24px;
+  }
+  .thesis{
+    display: none;
+  }
+  footer{
+    display: none;
+  }
+  .mobilefooter{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+  }
+}
