@@ -22,7 +22,7 @@ class Field {
         let moveSelection;
         while (currentlyPlaying) {
             moveSelection = prompt("Which way would you like to move? (Up = 'U' Down = 'D' Left = 'L' Right = 'R'");
-            // move selection up/down/left/right/
+            // move selection/up/down/left/right/
             if (moveSelection.toUpperCase() === 'U' && y !== 0) {
                 y -= 1;
             } else if (moveSelection.toUpperCase() === 'U' && y === 0) {
@@ -58,4 +58,59 @@ class Field {
             }
         }
     }
+
+    print() {
+        return this.field.map(row => row.join('')).join('\n');
+    }
+
+    static generateField(height, width, percentage) {
+        //  Functions
+        const countFieldCharacters = arrayOfHolesAndFieldCharacters => {
+                let fieldCharacterCount = 0;
+                for (let j = 0; j < arrayOfHolesAndFieldCharacters.length; j++) {
+                    if (arrayOfHolesAndFieldCharacters[j] === fieldCharacter) {
+                        fieldCharacterCount++;
+                    }
+                }
+                return fieldCharacterCount;
+            }
+            // Creating a field with only holes and field characters
+        let outputField = [];
+        let randomInt;
+        let currentArray = [];
+        let rowCount = 0;
+        while (rowCount < height) {
+            for (let i = 0; i < width; i++) {
+                randomInt = Math.ceil(Math.random() * 2);
+                if (randomInt === 1) {
+                    currentArray.push(fieldCharacter);
+                } else {
+                    currentArray.push(hole);
+                }
+            }
+            if ((countFieldCharacters(currentArray) / width) * 100 >= percentage) {
+                outputField.push(currentArray);
+                rowCount++;
+            }
+            currentArray = [];
+        }
+        // Adding in hat
+        const randomHatHeight = Math.floor(Math.random() * height);
+        const randomHatWidth = Math.floor(Math.random() * width);
+        outputField[0][0] = pathCharacter;
+        outputField[0][1] = fieldCharacter;
+        outputField[randomHatHeight][randomHatWidth] = hat;
+        return outputField;
+    }
 }
+
+// GAME IN PROGRESS
+// Prompts at the beginning
+let inputHeight = prompt('How tall would you like your game field to be?');
+let inputWidth = prompt('How wide?');
+let inputPercentage = prompt('Percentage of pathway vs. holes?');
+const generatedField = Field.generateField(Number(inputHeight), Number(inputWidth), Number(inputPercentage));
+
+//const generatedField = Field.generateField(20, 10, 60)
+const gameField = new Field(generatedField);
+gameField.playGame();
